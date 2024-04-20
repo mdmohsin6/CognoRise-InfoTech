@@ -1,0 +1,131 @@
+body {
+  
+  background-color: #f2f4f5;
+  text-align: center;
+}
+
+
+button {
+  width: auto;
+  height: 40px;
+  font:  1.4rem monospace;
+  background: #222;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #f4f7f7;
+  margin-left: 8rem;
+  box-shadow: rgba(34, 24, 24, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+ 
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+  button:hover {
+    background-color: #bef028; /* change to your desired color */
+    color: white; /* change to your desired color */
+  
+  transform: scale(1.05) rotate(-1deg);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+input {
+  width: auto;
+  padding: 5px 14px;
+  border: 2px solid #201f1d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #cdeefa;
+  outline: none;
+  color: black;
+  font-size: 14px;
+}
+
+input:focus {
+  border: 2px solid rgba(105, 103, 103, 0.4);
+  background-color: #cdeefa;
+  color: #222;
+}
+#results{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 23px;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 170px;
+  border-radius: 5px;
+  font: italic 1.3rem monospace;
+  box-shadow: 0px 0px 3px #c1c1c1;
+  background: #222;
+  color: #f4f7f7;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+  
+}
+
+
+form {
+  padding: 20px;
+  color: #222;;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  background-color: #bef028;
+  width: 350px;
+  height: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgb(157, 157, 157);
+}
+
+form p {
+  margin-bottom: 5px;
+  font-family: monospace;
+}
+
+form p:nth-child(1){
+  margin-top: 0;
+}
+
+.panel {
+  margin-top: 20px;
+  float: none;
+  font-family: monospace;
+  font-size: larger;
+}
+
+@media (min-width: 768px) {
+  .panel {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .panel {
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
